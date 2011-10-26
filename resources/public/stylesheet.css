@@ -1,0 +1,221 @@
+.main {
+	text-align: center;
+	padding: 30px;
+}
+
+.menuitem {
+	margin-left: 10px;
+}
+
+.header {
+	text-align: right;
+	font-size: xx-large;
+	font-family: sans-serif;
+	font-style: italic;
+	padding: 20px;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+}
+
+.message {
+	border-style: dotted;
+	border-width: 1px;
+	padding: 5px;
+	width: 400px;
+}
+
+.errormessage {
+	border-style: dashed;
+	border-color: red;
+	border-width: 3px;
+	padding: 5px;
+	width: 400px;
+}
+
+.paragraph {
+	padding: 25px;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-left: 5%;
+	padding-right: 5%;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #EEEEEE;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #EEEEEE;
+	width: 50%;
+	text-align: left;
+}
+
+.paragraphtitle {
+	font-family: sans-serif;
+	font-size: large;
+	font-style: oblique;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #2276a2;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-bottom: 20px;
+	text-align: left;
+	width: 60%;
+}
+
+.input>input {
+	width: 100%;
+	margin: 10px;
+}
+
+/*	Clases relacionadas con los snippets          */
+/**************************************************/
+.snippet-code {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #DDDDDD;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+
+.comments-title {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #F3F3F3;
+	font-family: sans-serif;
+	font-size: small;
+	margin-bottom: 10px;
+	}
+
+.comment {
+	margin-left: 10%;
+	padding: 8px;
+	background-color: #FAFAFA;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #EFEFEF;
+}
+
+.comment.user {
+	background-color: #FF0000;
+}
+
+.form-comments {
+	margin-left: 10%;
+	padding: 8px;
+	background-color: #FAFAFA;
+}
+
+.form-snippets>input {
+	width: 100%;
+}
+
+.tag {
+	font-size: x-small;
+	font-color: #999999;
+	padding: 8px;
+	margin-left: 10%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #FAFAFA;
+}
+
+.tag-title {
+	font-family: sans-serif;
+	font-size: small;
+}
+
+.newsnippet-title {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #F3F3F3;
+	font-family: sans-serif;
+	font-size: small;
+	margin-bottom: 10px;
+	}
+	
+.snippet {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border-bottom-style: dotted;
+	border-bottom-width:: 3px;
+	}
+
+.user {
+	float: right;
+	font-weight: bold;
+	color: #AAAAAA;
+	font-family: sans-serif;
+	}
+
+.form-comments {
+	text-align: right;
+	}
+	
+.textcomment {
+	width: 80%;
+	margin-bottom: 20px;
+	}
+
+/* Clases relacionadas con el listado de usuarios */
+/**************************************************/
+.userlist {
+	margin: 5px;
+}
+
+.userrow {
+	border-style: solid;
+	border-color: #EEEEEE;
+	border-width: 1px;
+	text-align: left;
+	padding: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin: 4px;
+	font-family: sans-serif;
+}
+
+.nickname {
+	text-align: right;
+	font-size: x-large;
+	font-style: oblique;
+	margin-bottom: 40px;
+}
+
+.indicadoramistad {
+	float: left;
+	vertical-align: top;
+	position: relative;
+	top: -100px;
+	margin-top: 0px;
+}
+
+.indicadores {
+	padding: 4px;
+	font-size: x-small;
+	color: #666666;
+	text-align: right;
+}
+
+span {
+	margin-left: 10px;
+}
+
+.addfriend .addenemy .leavefriend .leaveenemy {
+	padding-left: 10px;
+}
+
+#filter {
+	background-color: #FBFBFB;
+	padding: 10px;
+	border-style: dotted;
+	border-width: 1px;
+	border-color: #AAAAAA;
+	font-size: small;
+	font-family: sans-serif;
+	}
+	
+#filtro {
+	width: 100%;
+	}
